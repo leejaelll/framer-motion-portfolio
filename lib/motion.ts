@@ -27,10 +27,10 @@ export function slideInFromLeft(delay: number) {
 export function slideInFromRight(delay: number) {
   return {
     hidden: { x: 100, opacity: 0 },
-    visiable: {
+    visible: {
       x: 0,
       opacity: 1,
-      transtion: {
+      transition: {
         delay: delay,
         duration: 0.5,
       },
