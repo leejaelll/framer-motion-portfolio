@@ -1,14 +1,16 @@
 'use client';
 
 import Hero from '@/components/hero';
-import StarCanvas from '@/components/star-canvas';
+import Projects from '@/components/projects';
+import Skills from '@/components/skills';
 
 export default function Home() {
   return (
     <main className='h-full w-full'>
-      <div className='flex flex-col gap-20 h-[850px]'>
+      <div className='flex flex-col lg:gap-20'>
         <Hero />
-        <StarCanvas />
+        <Skills />
+        <Projects />
       </div>
     </main>
   );
