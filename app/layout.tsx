@@ -23,8 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={cn(bungee.variable, 'bg-[#030014] overflow-y-scroll overflow-x-hidden h-svh font-pretendard px-4')}>
-        <StarCanvas />
+      <body
+        className={cn(
+          bungee.variable,
+          'bg-[#030014] overflow-y-scroll overflow-x-hidden h-svh font-pretendard px-4'
+        )}
+      >
+        {/* <StarCanvas /> */}
         <NavBar />
         {children}
       </body>
