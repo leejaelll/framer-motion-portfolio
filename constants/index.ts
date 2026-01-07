@@ -109,10 +109,10 @@ export const BLOG_POSTS = [
 ] as const;
 
 export const PHOTOS = [
-  { id: 1, image: '/images/blog1.jpg' },
-  { id: 2, image: '/images/blog1.jpg' },
-  { id: 3, image: '/images/blog1.jpg' },
-  { id: 4, image: '/images/blog1.jpg' },
+  { id: 1, image: '/images/photo1.jpg' },
+  { id: 2, image: '/images/photo2.jpg' },
+  { id: 3, image: '/images/photo3.jpg' },
+  { id: 4, image: '/images/photo4.jpg' },
 ] as const;
 
 const WORK_LOCATION = {
@@ -196,7 +196,8 @@ const WORK_LOCATION = {
           kind: 'file',
           fileType: 'txt',
           position: 'top-5 left-10',
-          subtitle: '인터랙티브 지도와 타임라인으로 시각화한 웹 사이트 ‘충남미술사 아카이브‘',
+          subtitle:
+            '인터랙티브 지도와 타임라인으로 시각화한 웹 사이트 ‘충남미술사 아카이브‘',
           image: '/projects/chungnam-arthistory/1.png',
           description: [
             '**Overview**\n충남미술관에서 진행한 개화기(1876년)부터 1990년대까지의 충남 미술사 자료를 디지털화한 아카이브 플랫폼입니다. 미술단체, 교육기관, 전시공간, 인물 등 4가지 카테고리로 분류된 데이터를 시기별·지역별로 필터링하여 탐색할 수 있으며, 지도 위에 마커로 시각화하여 지리적 맥락에서 충남 미술사의 흐름을 파악할 수 있습니다.',
@@ -255,7 +256,8 @@ const WORK_LOCATION = {
           kind: 'file',
           fileType: 'txt',
           position: 'top-41 left-0',
-          subtitle: 'AI 기반 이미지 생성 및 3D 모델 제작 SaaS 플랫폼 ‘피규어AI‘',
+          subtitle:
+            'AI 기반 이미지 생성 및 3D 모델 제작 SaaS 플랫폼 ‘피규어AI‘',
           image: '/projects/figure-ai/1.png',
           description: [
             '**Overview**\nFigure AI는 사용자가 업로드한 사진을 기반으로 다양한 스타일의 3D 캐릭터 피규어로 자동 변환해주는 서비스입니다.\n생성된 캐릭터는 AR 환경에서 확인 가능하며, 실제 피규어 제작까지 확장 가능한 콘텐츠 커머스 플랫폼입니다.',
@@ -316,7 +318,7 @@ const WORK_LOCATION = {
           subtitle: '삼성 S+ 다국어 지원(i18n) 게이미피케이션 퀴즈 플랫폼',
           image: '/projects/s-plus-quiz/1.png',
           description: [
-            '**Overview**\n전 세계에 분포한 삼성 플러스 판매자들은 신제품이 출시될 때마다 제품 지식에 대한 인증을 통과하고 Expert 뱃지를 획득해야 합니다. 이 필수 학습 과정의 참여도와 효과를 높이기 위해, 퀴즈 형식의 gamification을 적용한 인증 시스템을 개발했습니다. 50개 이상의 언어를 지원하며, 브라우저의 언어를 파악하여 매칭되는 언어를 지원합니다.',
+            '**Overview**\n전 세계에 분포한 삼성 플러스 판매자들은 신제품이 출시될 때마다 제품 지식에 대한 인증을 통과하고 Expert 뱃지를 획득해야 합니다. 이 필수 학습 과정의 참여도와 효과를 높이기 위해, 퀴즈 형식의 `ga`mification을 적용한 인증 시스템을 개발했습니다. 50개 이상의 언어를 지원하며, 브라우저의 언어를 파악하여 매칭되는 언어를 지원합니다.',
             '**일정** : 2024.09 ~ 2025.01\n**기술 스택** : Next.js 14(App Router), TypeScript, Radix UI, Motion, Lottie, AWS SES, next-intl, Sentry, Google Analytics\n**참여 인원** : 6인(프론트엔드 2인, 백엔드 2인, 기획 2인)\n**서비스** : 삼성 S+ 사용자를 위한 50개국 언어 지원 게이미피케이션 인증 퀴즈 플랫폼',
           ],
           description_detail: [
@@ -416,7 +418,8 @@ const ABOUT_LOCATION = {
       kind: 'file',
       fileType: 'txt',
       position: 'top-10 left-5',
-      subtitle: '안녕하세요. 디테일과 간결함에 주의를 기울이는 개발자 이재린입니다.',
+      subtitle:
+        '안녕하세요. 디테일과 간결함에 주의를 기울이는 개발자 이재린입니다.',
       image: '/images/jaerin-1.png',
       description: [
         '3년간 SI 환경에서 다양한 프론트엔드 프로젝트를 경험하며 성장해온 개발자입니다. Next.js 기반의 대시보드, 관리자 페이지, 기업 웹사이트 등 업종과 요구사항이 다른 10여 개 프로젝트의 프론트엔드를 담당했습니다.',

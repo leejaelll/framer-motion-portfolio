@@ -8,6 +8,7 @@ import { useWindowStore } from '@/store/window';
 
 function Photos() {
   const { openWindow } = useWindowStore();
+  console.log('➡️➡️➡️ photos', PHOTOS);
 
   const handleImageClick = (image: string, index: number) => {
     openWindow('imgfile', {
@@ -27,7 +28,12 @@ function Photos() {
             <h3>Library</h3>
             <ul>
               <li>
-                <Image src='/icons/photo.svg' alt='photos' width={16} height={16} />
+                <Image
+                  src='/icons/photo.svg'
+                  alt='photos'
+                  width={16}
+                  height={16}
+                />
                 <p>Library</p>
               </li>
             </ul>
@@ -36,8 +42,17 @@ function Photos() {
         <div className='content gallery'>
           <ul>
             {PHOTOS.map(({ id, image }, index) => (
-              <li key={id} onClick={() => handleImageClick(image, index)} className='relative cursor-pointer hover:opacity-80 transition-opacity'>
-                <Image src={image} fill alt={image} className='object-cover rounded-lg' />
+              <li
+                key={id}
+                onClick={() => handleImageClick(image, index)}
+                className='relative cursor-pointer hover:opacity-80 transition-opacity'
+              >
+                <Image
+                  src={image}
+                  fill
+                  alt={image}
+                  className='object-cover rounded-lg'
+                />
               </li>
             ))}
           </ul>
